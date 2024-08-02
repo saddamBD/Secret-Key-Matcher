@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-section">
+        <div class="generate-section">
+          <button id="generate-btn">Generate</button>
+          <div id="generated-password" class="password-display">********</div>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div class="right-section">
+        <div class="enter-pin">
+          <h2>Enter PIN</h2>
+          <div id="input-display" class="password-display"></div>
+        </div>
+        <div class="keypad">
+          <button class="keypad-btn">1</button>
+          <button class="keypad-btn">2</button>
+          <button class="keypad-btn">3</button>
+          <button class="keypad-btn">4</button>
+          <button class="keypad-btn">5</button>
+          <button class="keypad-btn">6</button>
+          <button class="keypad-btn">7</button>
+          <button class="keypad-btn">8</button>
+          <button class="keypad-btn">9</button>
+          <button class="keypad-btn">0</button>
+          <button id="backspace-btn">X</button>
+          <button id="clear-btn">Clear</button>
+          <button id="submit-btn">Submit</button>
+        </div>
+        <div id="feedback" class="feedback"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
