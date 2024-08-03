@@ -43,10 +43,10 @@ document.addEventListener("DOMContentLoaded", () => {
   submitBtn.addEventListener("click", () => {
     if (userInput === generatedPassword) {
       feedback.innerHTML =
-        '<span style="color: green;">Success! Password matched! &#x2714;</span>';
+        '<span style="color: green;">Success! Secret key matched! &#x2714;</span>';
     } else {
       feedback.innerHTML =
-        '<span style="color: red;">Error! Password did not match. &#x2716;</span>';
+        '<span style="color: red;">Error! Secret key did not match. &#x2716;</span>';
     }
   });
 });
