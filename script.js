@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const generatedPasswordDisplay =
     document.getElementById("generated-password");
   const inputDisplay = document.getElementById("input-display");
-  const backspaceBtn = document.getElementById("backspace-btn");
-  const clearBtn = document.getElementById("clear-btn");
+  const backspaceBtn = document.getElementById("back-btn");
+  const clearBtn = document.getElementById("delete-btn");
   const submitBtn = document.getElementById("submit-btn");
   const feedback = document.getElementById("feedback");
   let generatedPassword = "";

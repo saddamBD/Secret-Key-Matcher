@@ -59,7 +59,6 @@ body {
 }
 
 .keypad-btn,
-#backspace-btn,
 #clear-btn,
 #submit-btn {
     padding: 15px;
@@ -73,13 +72,23 @@ body {
 }
 
 .keypad-btn:hover,
-#backspace-btn:hover,
-#clear-btn:hover,
 #submit-btn:hover {
     background-color: #0056b3;
     
 }
+#delete-btn {
+    background-color: red;
 
+}
+#back-btn{
+    background-color: #a83244;
+}
+#delete-btn:hover{
+    background-color: #a83244;
+}
+#back-btn:hover {
+    background-color: red;
+}
 #generate-btn {
     width: 100%;
     padding: 15px;
