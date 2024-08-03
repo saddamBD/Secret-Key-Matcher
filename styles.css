@@ -123,12 +123,14 @@ body {
     .keypad {
         grid-template-columns: repeat(3, 1fr);
     }
-    .password-display {
-        width: 100%;
-    }
+    
     .generate-btn {
-        width: 100%;
+        width: 80%;
     }
+    .password-display{
+        width: 80%;
+    }
+   
 }
 
 @media (max-width: 480px) {
